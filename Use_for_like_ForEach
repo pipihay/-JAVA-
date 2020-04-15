@@ -1,0 +1,11 @@
+public class JudgePrime{
+    public static void main(String[] args){
+        int [] lists = {12, 18, 9, 33, 45, 60};
+        int i = 1;
+        for(int value:lists){
+            System.out.println("Index: "+i+" Value:"+value);
+            i++;
+        }
+    }
+}
+
